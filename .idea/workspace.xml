@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f1a6b334-cb31-4b85-9d35-22e5dd2fb079" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Z8z2tCFCv6wjkf03kfAPGlipRq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager" selected="Application.MineGameGui">
+    <configuration name="Bfs" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Bfs" />
+      <module name="BFS" />
+      <shortenClasspath name="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ListNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ListNode" />
+      <module name="BFS" />
+      <shortenClasspath name="NONE" />
+      <option name="WORKING_DIRECTORY" value="." />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="MergeLists" />
+      <module name="BFS" />
+      <shortenClasspath name="NONE" />
+      <option name="WORKING_DIRECTORY" value="." />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MineGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="MineGame" />
+      <module name="BFS" />
+      <shortenClasspath name="NONE" />
+      <option name="WORKING_DIRECTORY" value="." />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MineGameGui" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="MineGameGui" />
+      <module name="BFS" />
+      <shortenClasspath name="NONE" />
+      <option name="WORKING_DIRECTORY" value="." />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SocialGraph" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="SocialGraph" />
+      <module name="BFS" />
+      <shortenClasspath name="NONE" />
+      <option name="WORKING_DIRECTORY" value="." />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tree" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Tree" />
+      <module name="BFS" />
+      <shortenClasspath name="NONE" />
+      <option name="WORKING_DIRECTORY" value="." />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordPath" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="WordPath" />
+      <module name="BFS" />
+      <shortenClasspath name="NONE" />
+      <option name="WORKING_DIRECTORY" value="." />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Bfs" />
+      <module name="BFS" />
+      <shortenClasspath name="NONE" />
+      <option name="WORKING_DIRECTORY" value="." />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Bfs" />
+      <item itemvalue="Application.Tree" />
+      <item itemvalue="Application.WordPath" />
+      <item itemvalue="Application.SocialGraph" />
+      <item itemvalue="Application.MergeLists" />
+      <item itemvalue="Application.ListNode" />
+      <item itemvalue="Application.MineGame" />
+      <item itemvalue="Application.MineGameGui" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MineGameGui" />
+        <item itemvalue="Application.MineGame" />
+        <item itemvalue="Application.MergeLists" />
+        <item itemvalue="Application.ListNode" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f1a6b334-cb31-4b85-9d35-22e5dd2fb079" name="Default Changelist" comment="" />
+      <created>1584235304694</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584235304694</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="100" key="#Project_Structure" timestamp="1584235340843">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state x="320" y="100" key="#Project_Structure/0.23.1440.823@0.23.1440.823" timestamp="1584235340843" />
+    <state x="308" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585004590747">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state x="308" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.823@0.23.1440.823" timestamp="1585004590747" />
+    <state x="533" y="146" key="#com.intellij.ide.util.MemberChooser" timestamp="1584490731010">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state x="533" y="146" key="#com.intellij.ide.util.MemberChooser/0.23.1440.823@0.23.1440.823" timestamp="1584490731010" />
+    <state x="458" y="219" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1585715812117">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state x="458" y="219" key="#com.intellij.ide.util.PackageChooserDialog/0.23.1440.829@0.23.1440.829" timestamp="1585715812117" />
+    <state x="457" y="227" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584235814792">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state x="457" y="227" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.1440.823@0.23.1440.823" timestamp="1584235814792" />
+    <state x="482" y="54" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1584258792135">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state x="482" y="54" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.823@0.23.1440.823" timestamp="1584258792135" />
+    <state width="1358" height="126" key="GridCell.Tab.0.bottom" timestamp="1586303173053">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1358" height="199" key="GridCell.Tab.0.bottom/0.23.1440.823@0.23.1440.823" timestamp="1585209986028" />
+    <state width="1358" height="126" key="GridCell.Tab.0.bottom/0.23.1440.825@0.23.1440.825" timestamp="1586301184644" />
+    <state width="1358" height="126" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1586303173053" />
+    <state width="1358" height="126" key="GridCell.Tab.0.bottom/0.23.1440.827@0.23.1440.827" timestamp="1586240449261" />
+    <state width="1358" height="199" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1585635066523" />
+    <state width="1358" height="353" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1585721395700" />
+    <state width="1358" height="126" key="GridCell.Tab.0.center" timestamp="1586303173052">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1358" height="199" key="GridCell.Tab.0.center/0.23.1440.823@0.23.1440.823" timestamp="1585209986026" />
+    <state width="1358" height="126" key="GridCell.Tab.0.center/0.23.1440.825@0.23.1440.825" timestamp="1586301184643" />
+    <state width="1358" height="126" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1586303173052" />
+    <state width="1358" height="126" key="GridCell.Tab.0.center/0.23.1440.827@0.23.1440.827" timestamp="1586240449260" />
+    <state width="1358" height="199" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1585635066522" />
+    <state width="1358" height="353" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1585721395699" />
+    <state width="1358" height="126" key="GridCell.Tab.0.left" timestamp="1586303173052">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1358" height="199" key="GridCell.Tab.0.left/0.23.1440.823@0.23.1440.823" timestamp="1585209986026" />
+    <state width="1358" height="126" key="GridCell.Tab.0.left/0.23.1440.825@0.23.1440.825" timestamp="1586301184642" />
+    <state width="1358" height="126" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1586303173052" />
+    <state width="1358" height="126" key="GridCell.Tab.0.left/0.23.1440.827@0.23.1440.827" timestamp="1586240449259" />
+    <state width="1358" height="199" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1585635066522" />
+    <state width="1358" height="353" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1585721395699" />
+    <state width="1358" height="126" key="GridCell.Tab.0.right" timestamp="1586303173053">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state width="1358" height="199" key="GridCell.Tab.0.right/0.23.1440.823@0.23.1440.823" timestamp="1585209986027" />
+    <state width="1358" height="126" key="GridCell.Tab.0.right/0.23.1440.825@0.23.1440.825" timestamp="1586301184643" />
+    <state width="1358" height="126" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1586303173053" />
+    <state width="1358" height="126" key="GridCell.Tab.0.right/0.23.1440.827@0.23.1440.827" timestamp="1586240449260" />
+    <state width="1358" height="199" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1585635066523" />
+    <state width="1358" height="353" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1585721395699" />
+    <state width="1358" height="208" key="GridCell.Tab.1.bottom" timestamp="1586301165477">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state width="1358" height="208" key="GridCell.Tab.1.bottom/0.23.1440.823@0.23.1440.823" timestamp="1585028124924" />
+    <state width="1358" height="208" key="GridCell.Tab.1.bottom/0.23.1440.825@0.23.1440.825" timestamp="1586301165477" />
+    <state width="1358" height="208" key="GridCell.Tab.1.bottom/0.23.1440.828@0.23.1440.828" timestamp="1585460877635" />
+    <state width="1358" height="208" key="GridCell.Tab.1.center" timestamp="1586301165477">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state width="1358" height="208" key="GridCell.Tab.1.center/0.23.1440.823@0.23.1440.823" timestamp="1585028124924" />
+    <state width="1358" height="208" key="GridCell.Tab.1.center/0.23.1440.825@0.23.1440.825" timestamp="1586301165477" />
+    <state width="1358" height="208" key="GridCell.Tab.1.center/0.23.1440.828@0.23.1440.828" timestamp="1585460877634" />
+    <state width="1358" height="208" key="GridCell.Tab.1.left" timestamp="1586301165476">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state width="1358" height="208" key="GridCell.Tab.1.left/0.23.1440.823@0.23.1440.823" timestamp="1585028124923" />
+    <state width="1358" height="208" key="GridCell.Tab.1.left/0.23.1440.825@0.23.1440.825" timestamp="1586301165476" />
+    <state width="1358" height="208" key="GridCell.Tab.1.left/0.23.1440.828@0.23.1440.828" timestamp="1585460877634" />
+    <state width="1358" height="208" key="GridCell.Tab.1.right" timestamp="1586301165477">
+      <screen x="0" y="23" width="1440" height="825" />
+    </state>
+    <state width="1358" height="208" key="GridCell.Tab.1.right/0.23.1440.823@0.23.1440.823" timestamp="1585028124924" />
+    <state width="1358" height="208" key="GridCell.Tab.1.right/0.23.1440.825@0.23.1440.825" timestamp="1586301165477" />
+    <state width="1358" height="208" key="GridCell.Tab.1.right/0.23.1440.828@0.23.1440.828" timestamp="1585460877634" />
+    <state x="286" y="178" width="867" height="602" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1584264726780">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state x="286" y="178" width="867" height="602" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.23.1440.823@0.23.1440.823" timestamp="1584264726780" />
+    <state x="385" y="197" key="run.anything.popup" timestamp="1584599717799">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state x="385" y="197" key="run.anything.popup/0.23.1440.823@0.23.1440.823" timestamp="1584599717799" />
+    <state x="385" y="170" width="670" height="676" key="search.everywhere.popup" timestamp="1584755551513">
+      <screen x="0" y="23" width="1440" height="823" />
+    </state>
+    <state x="385" y="170" width="670" height="676" key="search.everywhere.popup/0.23.1440.823@0.23.1440.823" timestamp="1584755551513" />
+  </component>
+</project>
