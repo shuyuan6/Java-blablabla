@@ -21,7 +21,7 @@ public class SocialGraph {
 
 
     static Set<String> find2ndDegreeFriends(String id, List<String> relations) {
-        Map<String, List<String>> friends = new HashMap<>();
+        Map<String, List<String>> friends = new HashMap<String, List<String>>();
         List<String> names = new ArrayList<>();
         for (int i = 0; i < relations.size(); i++){
             names.add(relations.get(i));
