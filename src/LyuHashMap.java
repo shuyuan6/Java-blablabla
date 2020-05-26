@@ -8,11 +8,6 @@ public class LyuHashMap<K, V> {
         V value;
         Node<K, V> next;
 
-        public Node(K key, V value, Node<K, V> next) {
-            this.key = key;
-            this.value = value;
-            this.next = next;
-        }
         public Node(K key, V value) {
             this.key = key;
             this.value = value;
@@ -23,7 +18,7 @@ public class LyuHashMap<K, V> {
     public Node<K, V>[] buckets;
     public int count = 0;
     public int capacity;
-    public static double load = 2.0;
+    final public static double LOAD_THRESHOLD = 2.0;
 
     public LyuHashMap() {
         count = 0;
@@ -32,7 +27,7 @@ public class LyuHashMap<K, V> {
     }
 
     public V put(K key, V value) {
-        if (count / (double) capacity >= load) {
+        if (count / (double) capacity >= LOAD_THRESHOLD) {
             increaseCapacity();
         }
         return addInternal(key, value);
@@ -111,6 +106,35 @@ public class LyuHashMap<K, V> {
         return false;
     }
 
+    public V remove(K key) {
+        int index = key.hashCode() % buckets.length;
+        Node<K, V> curr = buckets[index];
+
+        if (buckets[index] == null) {
+            return null;
+        }
+
+        if (buckets[index].key.equals(key)) {
+            V oldValue = curr.value;
+            buckets[index] = curr.next;
+            count--;
+            return oldValue;
+        }
+
+        Node<K, V> prev = curr;
+        while (curr != null) {
+            if (curr.key.equals(key)) {
+                V oldValue = curr.value;
+                prev.next = curr.next;
+                count--;
+                return oldValue;
+            }
+            prev = curr;
+            curr = curr.next;
+        }
+        return null;
+    }
+
     public void printHashMap() {
         System.out.printf("Count: %d, buckets length: %d\n", count, buckets.length);
         for (Node n : buckets) {
@@ -134,9 +158,9 @@ public class LyuHashMap<K, V> {
         Map<Integer, Integer> golden = new HashMap<>();
 
         Random random = new Random();
-        int range = 100;
+        int range = 10;
         for (int i = 0; i < 1000; i++) {
-            int dice = random.nextInt(3);
+            int dice = random.nextInt(4);
             if (dice == 0) {
                 int toAddKey = random.nextInt(range);
                 int toAddValue = random.nextInt(range);
@@ -160,6 +184,22 @@ public class LyuHashMap<K, V> {
                 System.out.println("Getting " + toGet);
                 Integer goldenRet = golden.get(toGet);
                 Integer ret = hmap.get(toGet);
+                if (goldenRet == null && ret == null) {
+                    continue;
+                } else if (goldenRet == null) {
+                    throw new RuntimeException();
+                } else if (ret == null) {
+                    throw new RuntimeException();
+                } else {
+                    if (!goldenRet.equals(ret)) {
+                        throw new RuntimeException();
+                    }
+                }
+            } else if (dice == 2) {
+                Integer toRemove = random.nextInt(range);
+                System.out.println("Removing " + toRemove);
+                Integer goldenRet = golden.remove(toRemove);
+                Integer ret = hmap.remove(toRemove);
                 if (goldenRet == null && ret == null) {
                     continue;
                 } else if (goldenRet == null) {
