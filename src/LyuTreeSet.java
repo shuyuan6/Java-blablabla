@@ -14,14 +14,17 @@ public class LyuTreeSet<T extends Comparable<T>> {
     }
 
     Node<T> root;
+    int size;
 
     public LyuTreeSet() {
         root = null;
+        size = 0;
     }
 
     public Node<T> insert(Node<T> root, T key) {
         if (root == null) {
             root = new Node<T>(key);
+            size++;
             return root;
         }
 
@@ -34,7 +37,7 @@ public class LyuTreeSet<T extends Comparable<T>> {
         return root;
     }
 
-    public boolean add(T t) {
+    public boolean addrecursive(T t) {
         if (contains(t)) {
             return false;
         }
@@ -42,14 +45,37 @@ public class LyuTreeSet<T extends Comparable<T>> {
         return true;
     }
 
-    int getSize(Node<T> node) {
-        if (node == null)
-            return 0;
-        else
-            return(getSize(node.left) + 1 + getSize(node.right));
+    public boolean add(T t) {
+        if (root == null) {
+            root = new Node<>(t);
+            size++;
+            return true;
+        }
+        Node<T> curr = root;
+        Node<T> previous = root;
+        while (curr != null) {
+            if (curr.value.compareTo(t) == 0) {
+                return false;
+            } else if (curr.value.compareTo(t) < 0) {
+                previous = curr;
+                curr = curr.right;
+
+            } else {
+                previous = curr;
+                curr = curr.left;
+            }
+        }
+        if (previous.value.compareTo(t) < 0) {
+            previous.right = new Node<>(t);
+        } else {
+            previous.left = new Node<>(t);
+        }
+        size++;
+        return true;
     }
+
     public int size() {
-        return getSize(root);
+        return size;
     }
 
     public Node<T> search(Node<T> root, T key) {
@@ -63,13 +89,27 @@ public class LyuTreeSet<T extends Comparable<T>> {
         return search(root.right, key);
     }
 
-    public boolean contains(T t) {
+    public boolean containsRecursive(T t) {
         Node<T> res = search(root, t);
         if (res == null) {
             return false;
         }
 
         return res.value.equals(t);
+    }
+
+    public boolean contains(T t) {
+        Node<T> curr = root;
+        while (curr != null) {
+            if (curr.value.compareTo(t) == 0) {
+                return true;
+            } else if (curr.value.compareTo(t) < 0) {
+                curr = curr.right;
+            } else {
+                curr = curr.left;
+            }
+        }
+        return false;
     }
 
     public void printInOrder(Node<T> root) {
