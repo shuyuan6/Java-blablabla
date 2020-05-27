@@ -164,7 +164,6 @@ public class LyuHashMap<K, V> {
             if (dice == 0) {
                 int toAddKey = random.nextInt(range);
                 int toAddValue = random.nextInt(range);
-                Node<Integer, Integer> toAdd = new Node<>(toAddKey, toAddValue);
                 System.out.println("Adding " + toAddKey + ": " + toAddValue);
                 Integer goldenRet = golden.put(toAddKey, toAddValue);
                 Integer ret = hmap.put(toAddKey, toAddValue);
